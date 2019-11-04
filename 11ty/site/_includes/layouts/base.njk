@@ -8,7 +8,11 @@
         <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     </head>
     <body> 
+        {% include "components/header.njk" %}
         {% include "components/navigation.njk" %}
-        {{ content | safe }}
+        <main class="main">
+            {{ content | safe }}
+        </main>
+        {% include "components/footer.njk" %}
     </body>
 </html>

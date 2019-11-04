@@ -1,3 +1,8 @@
-@import "common/variables.css";
-@import "common/base.css";
+@import "abstracts/fonts.css";
+@import "abstracts/variables.css";
+@import "abstracts/utilities.css";
+@import "base/common.css";
+@import "base/typography.css";
 @import "layout/grid.css";
+@import "layout/footer.css";
+@import "pages/home.css";
