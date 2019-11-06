@@ -1,0 +1,26 @@
+.card {
+  box-sizing: border-box;
+  width: 100%;
+
+  background: rgba(33, 33, 33, 1);
+}
+
+.card__header {
+
+}
+
+.card__body {
+  
+}
+
+.card__footer {
+  
+}
+
+.card__image {
+  
+}
+
+.card__actions {
+  
+}

@@ -5,11 +5,6 @@
   --debug-g-column-background: rgba(0, 255, 0, 1);
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 .debug .g-container {
   border: 2px solid var(--debug-g-container-background);
   min-height: 64px;
