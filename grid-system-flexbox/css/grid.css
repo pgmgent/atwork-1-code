@@ -290,9 +290,9 @@ Grid system with grid
 .g-gr-rspan-7 { grid-row: span 7; }
 .g-gr-rspan-8 { grid-row: span 8; }
 .g-gr-rspan-9 { grid-row: span 9; }
-.g-gr-rspan-10 {grid-row: span 10; }
-.g-gr-rspan-11 {grid-row: span 11; }
-.g-gr-rspan-12 {grid-row: span 12; }
+.g-gr-rspan-10 { grid-row: span 10; }
+.g-gr-rspan-11 { grid-row: span 11; }
+.g-gr-rspan-12 { grid-row: span 12; }
 
 @media (min-width: 481px) {
   .g-gr-cspan-sm-1 { grid-column: span 1; }
