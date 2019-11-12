@@ -82,3 +82,18 @@
   text-transform: uppercase;
   padding: calc(var(--space) / 2);
 }
+
+.concert {
+  position: relative;
+  width: 100%;
+  height: 268px;
+  overflow: hidden;
+}
+
+.g-gr-grid.concerts {
+  grid-auto-rows: 286px;
+}
+
+.g-gr-grid.concerts .concert {
+  height: 100%;
+}
