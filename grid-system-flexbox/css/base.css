@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900&display=swap');
+
+:root {
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-body: var(--font-family-roboto);
+  --font-family-headings: var(--font-family-headings);
+}
+
+body {
+  font-family: var(--font-family-body);
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-body);
+  font-weight: 700;
+}

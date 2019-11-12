@@ -1,0 +1,84 @@
+:root {
+  --color-green: #5BC4BF;
+  --color-yellow: #FFE131;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --space: 12px;
+}
+
+.concert {
+  position: relative;
+  width: 100%;
+  height: 268px;
+  overflow: hidden;
+
+  margin-bottom: calc(var(--gutter) * 2);
+}
+
+.concert:hover .concert__picture > img {
+  transform: scale(1.2);
+}
+
+.concert:hover .concert__artist {
+  border-bottom: 6px solid var(--color-green);
+}
+
+@media (max-width: 480px) {
+  .concert {
+    margin-bottom: calc(var(--gutter));
+  }
+}
+
+.concert__picture {
+  display: block;
+  height: 100%;
+}
+
+.concert__picture > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: all 268ms ease-out 0s;
+}
+
+.concert__body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: var(--space);
+}
+
+.concert__artist {
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, var(--color-green), var(--color-yellow));
+  color: var(--color-white);
+  padding: var(--space);
+
+  font-size: 1.6rem;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 1);
+
+  transition: all 268ms ease-out 0s;
+}
+
+.concert__meta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.concert__location {
+  background: var(--color-yellow);
+  color: var(--color-white);
+  padding: calc(var(--space) / 2);
+
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 1);
+}
+
+.concert__date {
+  background: var(--color-white);
+  color: var(--color-black);
+  text-transform: uppercase;
+  padding: calc(var(--space) / 2);
+}
